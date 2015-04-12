@@ -89,7 +89,7 @@
   </fanSpeed>
   <blipFanToFullPower>1</blipFanToFullPower>
   <adjustSpeedForCooling>1</adjustSpeedForCooling>
-  <minSpeedLayerTime>5</minSpeedLayerTime>
+  <minSpeedLayerTime>15</minSpeedLayerTime>
   <minCoolingSpeedSlowdown>20</minCoolingSpeedSlowdown>
   <increaseFanForCooling>0</increaseFanForCooling>
   <minFanLayerTime>10</minFanLayerTime>
