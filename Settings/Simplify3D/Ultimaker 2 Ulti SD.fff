@@ -150,10 +150,10 @@
   <diaphragmLayerInterval>20</diaphragmLayerInterval>
   <robustSlicing>1</robustSlicing>
   <mergeAllIntoSolid>0</mergeAllIntoSolid>
-  <onlyRetractWhenCrossingOutline>1</onlyRetractWhenCrossingOutline>
+  <onlyRetractWhenCrossingOutline>0</onlyRetractWhenCrossingOutline>
   <retractBetweenLayers>0</retractBetweenLayers>
   <useRetractionMinTravel>1</useRetractionMinTravel>
-  <retractionMinTravel>0.02</retractionMinTravel>
+  <retractionMinTravel>2</retractionMinTravel>
   <useRetractionOozeRate>0</useRetractionOozeRate>
   <retractionOozeRate>6000</retractionOozeRate>
   <onlyWipeOutlines>1</onlyWipeOutlines>
