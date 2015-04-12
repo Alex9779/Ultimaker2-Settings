@@ -30,8 +30,8 @@
   <startPointOriginZ>300</startPointOriginZ>
   <sequentialIslands>0</sequentialIslands>
   <spiralVaseMode>0</spiralVaseMode>
-  <firstLayerHeightPercentage>250</firstLayerHeightPercentage>
-  <firstLayerWidthPercentage>100</firstLayerWidthPercentage>
+  <firstLayerHeightPercentage>500</firstLayerHeightPercentage>
+  <firstLayerWidthPercentage>120</firstLayerWidthPercentage>
   <firstLayerUnderspeed>0.6</firstLayerUnderspeed>
   <useRaft>0</useRaft>
   <raftExtruder>0</raftExtruder>
