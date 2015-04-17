@@ -32,7 +32,7 @@
   <spiralVaseMode>0</spiralVaseMode>
   <firstLayerHeightPercentage>500</firstLayerHeightPercentage>
   <firstLayerWidthPercentage>130</firstLayerWidthPercentage>
-  <firstLayerUnderspeed>0.6</firstLayerUnderspeed>
+  <firstLayerUnderspeed>0.4</firstLayerUnderspeed>
   <useRaft>0</useRaft>
   <raftExtruder>0</raftExtruder>
   <raftLayers>3</raftLayers>
