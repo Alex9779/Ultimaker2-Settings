@@ -95,7 +95,7 @@
   <minFanLayerTime>10</minFanLayerTime>
   <maxCoolingFanSpeed>30</maxCoolingFanSpeed>
   <increaseFanForBridging>1</increaseFanForBridging>
-  <bridgingFanSpeed>45</bridgingFanSpeed>
+  <bridgingFanSpeed>100</bridgingFanSpeed>
   <use5D>1</use5D>
   <relativeEdistances>0</relativeEdistances>
   <allowEaxisZeroing>1</allowEaxisZeroing>
@@ -137,9 +137,9 @@
   <supportUnderspeed>0.8</supportUnderspeed>
   <rapidXYspeed>4998</rapidXYspeed>
   <rapidZspeed>1002</rapidZspeed>
-  <minBridgingArea>5</minBridgingArea>
+  <minBridgingArea>2.5</minBridgingArea>
   <bridgingExtrusionMultiplier>2</bridgingExtrusionMultiplier>
-  <bridgingSpeedMultiplier>0.5</bridgingSpeedMultiplier>
+  <bridgingSpeedMultiplier>0.25</bridgingSpeedMultiplier>
   <filamentDiameter>2.85</filamentDiameter>
   <filamentPricePerKg>35</filamentPricePerKg>
   <useMinPrintHeight>0</useMinPrintHeight>
