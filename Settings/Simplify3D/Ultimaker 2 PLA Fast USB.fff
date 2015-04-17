@@ -9,10 +9,10 @@
     <width>0.4</width>
     <extrusionMultiplier>1</extrusionMultiplier>
     <useRetract>1</useRetract>
-    <retractionDistance>5</retractionDistance>
+    <retractionDistance>4.5</retractionDistance>
     <extraRestartDistance>0</extraRestartDistance>
     <retractionZLift>0.05</retractionZLift>
-    <retractionSpeed>6000</retractionSpeed>
+    <retractionSpeed>1500</retractionSpeed>
     <useCoasting>0</useCoasting>
     <coastingDistance>3</coastingDistance>
     <useWipe>0</useWipe>
