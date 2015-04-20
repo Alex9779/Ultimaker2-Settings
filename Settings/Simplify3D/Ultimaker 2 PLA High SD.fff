@@ -31,7 +31,7 @@
   <sequentialIslands>0</sequentialIslands>
   <spiralVaseMode>0</spiralVaseMode>
   <firstLayerHeightPercentage>334</firstLayerHeightPercentage>
-  <firstLayerWidthPercentage>125</firstLayerWidthPercentage>
+  <firstLayerWidthPercentage>110</firstLayerWidthPercentage>
   <firstLayerUnderspeed>0.4</firstLayerUnderspeed>
   <useRaft>0</useRaft>
   <raftExtruder>0</raftExtruder>
