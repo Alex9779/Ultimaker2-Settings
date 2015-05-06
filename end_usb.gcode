@@ -1,4 +1,3 @@
-M300 ; Send alert
 G91 ; relative coordinates
 G1 Z0.2 ; retract lift
 G1 E-20 F3000 ; reverse priming
