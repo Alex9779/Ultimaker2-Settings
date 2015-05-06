@@ -1,0 +1,23 @@
+[material]
+name=IF PLA
+temperature=215
+bed_temperature=60
+fan_speed=100
+flow=105
+diameter=2.85
+
+[material]
+name=IF ABS
+temperature=235
+bed_temperature=95
+fan_speed=15
+flow=110
+diameter=2.85
+
+[material]
+name=CF PLA
+temperature=200
+bed_temperature=60
+fan_speed=100
+flow=100
+diameter=2.85
