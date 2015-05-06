@@ -73,7 +73,7 @@
     <relayBetweenLayers>0</relayBetweenLayers>
     <relayBetweenLoops>0</relayBetweenLoops>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="215"/>
+    <setpoint layer="1" temperature="210"/>
   </temperatureController>
   <temperatureController name="Heated Build Platform">
     <temperatureNumber>1</temperatureNumber>
