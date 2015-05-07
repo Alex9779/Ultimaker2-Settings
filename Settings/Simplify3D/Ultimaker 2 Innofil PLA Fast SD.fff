@@ -9,7 +9,7 @@
     <width>0.4</width>
     <extrusionMultiplier>1</extrusionMultiplier>
     <useRetract>1</useRetract>
-    <retractionDistance>4.5</retractionDistance>
+    <retractionDistance>2.25</retractionDistance>
     <extraRestartDistance>0</extraRestartDistance>
     <retractionZLift>0</retractionZLift>
     <retractionSpeed>1500</retractionSpeed>
@@ -136,7 +136,7 @@
   <solidInfillUnderspeed>0.3</solidInfillUnderspeed>
   <supportUnderspeed>0.8</supportUnderspeed>
   <rapidXYspeed>9000</rapidXYspeed>
-  <rapidZspeed>1000/rapidZspeed>
+  <rapidZspeed>1500</rapidZspeed>
   <minBridgingArea>1</minBridgingArea>
   <bridgingExtrusionMultiplier>2</bridgingExtrusionMultiplier>
   <bridgingSpeedMultiplier>0.25</bridgingSpeedMultiplier>
