@@ -7,7 +7,7 @@ G92 E0 ; zero the extruded length
 G1 F50 E5 ; additional priming
 G1 F2400 X20 Y20 Z0.3 ; wipe start position
 G92 E0 ; zero the extruded length
-G1 F225 X35 E2 ; move 15mm and extrude
+G1 F225 X35 E1 ; move 15mm and extrude
 G92 E0 ; zero the extruded length
 G1 F2100 X50 E1 ; move 15mm
 G92 E0 ; zero the extruded length
