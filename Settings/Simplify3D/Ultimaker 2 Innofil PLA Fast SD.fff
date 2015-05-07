@@ -135,8 +135,8 @@
   <outlineUnderspeed>0.6</outlineUnderspeed>
   <solidInfillUnderspeed>0.3</solidInfillUnderspeed>
   <supportUnderspeed>0.8</supportUnderspeed>
-  <rapidXYspeed>4998</rapidXYspeed>
-  <rapidZspeed>1002</rapidZspeed>
+  <rapidXYspeed>9000</rapidXYspeed>
+  <rapidZspeed>1000/rapidZspeed>
   <minBridgingArea>1</minBridgingArea>
   <bridgingExtrusionMultiplier>2</bridgingExtrusionMultiplier>
   <bridgingSpeedMultiplier>0.25</bridgingSpeedMultiplier>
