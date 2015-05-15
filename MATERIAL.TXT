@@ -8,10 +8,10 @@ diameter=2.85
 
 [material]
 name=IF ABS
-temperature=235
-bed_temperature=95
-fan_speed=15
-flow=105
+temperature=230
+bed_temperature=100
+fan_speed=50
+flow=100
 diameter=2.85
 
 [material]
