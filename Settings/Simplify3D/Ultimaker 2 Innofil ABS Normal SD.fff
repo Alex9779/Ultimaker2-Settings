@@ -15,7 +15,7 @@
     <retractionSpeed>1500</retractionSpeed>
     <useCoasting>0</useCoasting>
     <coastingDistance>3</coastingDistance>
-    <useWipe>1</useWipe>
+    <useWipe>0</useWipe>
     <wipeDistance>3</wipeDistance>
   </extruder>
   <primaryExtruder>0</primaryExtruder>
