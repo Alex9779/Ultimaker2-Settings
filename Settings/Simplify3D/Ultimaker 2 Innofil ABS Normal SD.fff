@@ -28,7 +28,7 @@
   <startPointOriginX>0</startPointOriginX>
   <startPointOriginY>0</startPointOriginY>
   <startPointOriginZ>300</startPointOriginZ>
-  <sequentialIslands>0</sequentialIslands>
+  <sequentialIslands>1</sequentialIslands>
   <spiralVaseMode>0</spiralVaseMode>
   <firstLayerHeightPercentage>200</firstLayerHeightPercentage>
   <firstLayerWidthPercentage>200</firstLayerWidthPercentage>
