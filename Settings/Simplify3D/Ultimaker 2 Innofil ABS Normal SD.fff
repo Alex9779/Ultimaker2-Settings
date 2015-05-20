@@ -20,8 +20,8 @@
   </extruder>
   <primaryExtruder>0</primaryExtruder>
   <layerHeight>0.1</layerHeight>
-  <topSolidLayers>6</topSolidLayers>
-  <bottomSolidLayers>6</bottomSolidLayers>
+  <topSolidLayers>4</topSolidLayers>
+  <bottomSolidLayers>4</bottomSolidLayers>
   <perimeterOutlines>2</perimeterOutlines>
   <printPerimetersInsideOut>1</printPerimetersInsideOut>
   <startPointOption>1</startPointOption>
