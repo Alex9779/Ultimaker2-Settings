@@ -5,9 +5,9 @@ G92 E0 ; zero the extruded length
 G1 F500 E20 ; undo end of print/abort retraction
 G92 E0 ; zero the extruded length
 G1 F50 E5 ; additional priming
-G1 F2400 X20 Y20 Z0.3 ; wipe start position
+G1 F2400 X5 Y25 Z0.3 ; wipe start position
 G92 E0 ; zero the extruded length
-G1 F225 X35 E1 ; move 15mm and extrude
+G1 F225 Y40 E1 ; move 15mm and extrude
 G92 E0 ; zero the extruded length
-G1 F2100 X50 E1 ; move 15mm
+G1 F2100 Y55 E1 ; move 15mm
 G92 E0 ; zero the extruded length
