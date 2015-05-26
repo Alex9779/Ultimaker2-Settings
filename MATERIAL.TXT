@@ -21,3 +21,11 @@ bed_temperature=60
 fan_speed=100
 flow=100
 diameter=2.85
+
+[material]
+name=CF XT
+temperature=250
+bed_temperature=70
+fan_speed=0
+flow=100
+diameter=2.85
