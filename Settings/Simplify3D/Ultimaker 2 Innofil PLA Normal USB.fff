@@ -122,7 +122,7 @@
   <flipXoverride>1</flipXoverride>
   <flipYoverride>-1</flipYoverride>
   <flipZoverride>1</flipZoverride>
-  <startingGcode>G28 ; home all axes,G1 F12000 X5 Y10 ; Cura HEATUP_POSITION_COMMAND,G1 F2400 Z20 ; bring plate to Cura PRIMING_HEIGTH with Cura HOMING_FEEDRATE,G92 E0 ; zero the extruded length,G1 F500 E20 ; undo end of print/abort retraction,G92 E0 ; zero the extruded length,G1 F50 E5 ; additional priming,G1 F2400 X20 Y20 Z0.3 ; wipe start position,G92 E0 ; zero the extruded length,G1 F225 X35 E1 ; move 15mm and extrude,G92 E0 ; zero the extruded length,G1 F2100 X50 E1 ; move 15mm,G92 E0 ; zero the extruded length</startingGcode>
+  <startingGcode>G28 ; home all axes,G1 F12000 X5 Y10 ; Cura HEATUP_POSITION_COMMAND,G1 F2400 Z20 ; bring plate to Cura PRIMING_HEIGTH with Cura HOMING_FEEDRATE,G92 E0 ; zero the extruded length,G1 F500 E20 ; undo end of print/abort retraction,G92 E0 ; zero the extruded length,G1 F50 E5 ; additional priming,G1 F2400 X5 Y50 Z0.3 ; wipe start position,G92 E0 ; zero the extruded length,G1 F225 Y65 E1 ; move 15mm and extrude,G92 E0 ; zero the extruded length,G1 F2100 Y80 E1 ; move 15mm,G92 E0 ; zero the extruded length</startingGcode>
   <layerChangeGcode></layerChangeGcode>
   <toolChangeGcode></toolChangeGcode>
   <endingGcode>G91 ; relative coordinates,G1 Z0.2 ; retract lift,G1 E-20 F3000 ; reverse priming,G90 ; absolute coordinates,G28 ; home all axes,M104 S0 ; turn off extruder heaters,M140 S0 ; turn off bed heater,M106 S0 ; turn off fans,M84 ; disable motors</endingGcode>
