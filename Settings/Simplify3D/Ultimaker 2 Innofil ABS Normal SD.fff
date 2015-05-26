@@ -112,8 +112,8 @@
   <independentExtruderAxes>0</independentExtruderAxes>
   <includeM10123>0</includeM10123>
   <stickySupport>1</stickySupport>
-  <detectArcs>0</detectArcs>
-  <arcReplaceG2G3>0</arcReplaceG2G3>
+  <detectArcs>1</detectArcs>
+  <arcReplaceG2G3>1</arcReplaceG2G3>
   <arcRadialCompensation>1</arcRadialCompensation>
   <gcodeXoffset>0</gcodeXoffset>
   <gcodeYoffset>0</gcodeYoffset>
