@@ -16,7 +16,7 @@ diameter=2.85
 
 [material]
 name=CF PLA
-temperature=200
+temperature=205
 bed_temperature=60
 fan_speed=100
 flow=100
