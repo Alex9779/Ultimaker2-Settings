@@ -267,9 +267,9 @@
     <supportInfillPercentage>40</supportInfillPercentage>
   </autoConfigureQuality>
   <autoConfigureMaterial name="Innofil ABS">
-    <globalExtruderTemperature>230</globalExtruderTemperature>
-    <globalBedTemperature>105</globalBedTemperature>
-    <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
+    <globalExtruderTemperature>240</globalExtruderTemperature>
+    <globalBedTemperature>90</globalBedTemperature>
+    <globalExtrusionMultiplier>1.1</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
     </fanSpeed>
