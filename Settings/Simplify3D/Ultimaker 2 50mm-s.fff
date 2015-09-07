@@ -194,7 +194,6 @@
       <diameter>0.4</diameter>
       <autoWidth>0</autoWidth>
       <width>0.4</width>
-      <extrusionMultiplier>1.05</extrusionMultiplier>
       <useRetract>1</useRetract>
       <retractionDistance>4</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
@@ -220,7 +219,6 @@
       <diameter>0.4</diameter>
       <autoWidth>0</autoWidth>
       <width>0.4</width>
-      <extrusionMultiplier>1</extrusionMultiplier>
       <useRetract>1</useRetract>
       <retractionDistance>4.5</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
@@ -246,7 +244,6 @@
       <diameter>0.4</diameter>
       <autoWidth>0</autoWidth>
       <width>0.4</width>
-      <extrusionMultiplier>1</extrusionMultiplier>
       <useRetract>1</useRetract>
       <retractionDistance>4.5</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
