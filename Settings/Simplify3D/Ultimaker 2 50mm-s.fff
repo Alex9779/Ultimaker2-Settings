@@ -13,7 +13,7 @@
     <useRetract>1</useRetract>
     <retractionDistance>4.5</retractionDistance>
     <extraRestartDistance>0</extraRestartDistance>
-    <retractionZLift>0.15</retractionZLift>
+    <retractionZLift>0.2</retractionZLift>
     <retractionSpeed>1500</retractionSpeed>
     <useCoasting>1</useCoasting>
     <coastingDistance>1.5</coastingDistance>
@@ -198,7 +198,7 @@
       <useRetract>1</useRetract>
       <retractionDistance>4</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
-      <retractionZLift>0.15</retractionZLift>
+      <retractionZLift>0.2</retractionZLift>
       <retractionSpeed>1500</retractionSpeed>
       <useCoasting>1</useCoasting>
       <coastingDistance>1</coastingDistance>
@@ -223,7 +223,7 @@
       <useRetract>1</useRetract>
       <retractionDistance>4.5</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
-      <retractionZLift>0.15</retractionZLift>
+      <retractionZLift>0.2</retractionZLift>
       <retractionSpeed>1500</retractionSpeed>
       <useCoasting>1</useCoasting>
       <coastingDistance>1.5</coastingDistance>
@@ -248,7 +248,7 @@
       <useRetract>1</useRetract>
       <retractionDistance>4.5</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
-      <retractionZLift>0.15</retractionZLift>
+      <retractionZLift>0.2</retractionZLift>
       <retractionSpeed>1500</retractionSpeed>
       <useCoasting>1</useCoasting>
       <coastingDistance>2</coastingDistance>
