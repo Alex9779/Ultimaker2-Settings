@@ -189,21 +189,6 @@
   <thinWallAllowedOverlapPercentage>20</thinWallAllowedOverlapPercentage>
   <horizontalSizeCompensation>0</horizontalSizeCompensation>
   <autoConfigureQuality name="Fast">
-    <extruder name="Primary Extruder">
-      <toolheadNumber>0</toolheadNumber>
-      <diameter>0.4</diameter>
-      <autoWidth>0</autoWidth>
-      <width>0.4</width>
-      <useRetract>1</useRetract>
-      <retractionDistance>4</retractionDistance>
-      <extraRestartDistance>0</extraRestartDistance>
-      <retractionZLift>0.2</retractionZLift>
-      <retractionSpeed>1500</retractionSpeed>
-      <useCoasting>1</useCoasting>
-      <coastingDistance>1</coastingDistance>
-      <useWipe>0</useWipe>
-      <wipeDistance>2</wipeDistance>
-    </extruder>
     <layerHeight>0.15</layerHeight>
     <topSolidLayers>3</topSolidLayers>
     <bottomSolidLayers>3</bottomSolidLayers>
@@ -214,21 +199,6 @@
     <supportInfillPercentage>25</supportInfillPercentage>
   </autoConfigureQuality>
   <autoConfigureQuality name="Medium">
-    <extruder name="Primary Extruder">
-      <toolheadNumber>0</toolheadNumber>
-      <diameter>0.4</diameter>
-      <autoWidth>0</autoWidth>
-      <width>0.4</width>
-      <useRetract>1</useRetract>
-      <retractionDistance>4.5</retractionDistance>
-      <extraRestartDistance>0</extraRestartDistance>
-      <retractionZLift>0.2</retractionZLift>
-      <retractionSpeed>1500</retractionSpeed>
-      <useCoasting>1</useCoasting>
-      <coastingDistance>1.5</coastingDistance>
-      <useWipe>0</useWipe>
-      <wipeDistance>2</wipeDistance>
-    </extruder>
     <layerHeight>0.1</layerHeight>
     <topSolidLayers>3</topSolidLayers>
     <bottomSolidLayers>3</bottomSolidLayers>
@@ -239,22 +209,6 @@
     <supportInfillPercentage>30</supportInfillPercentage>
   </autoConfigureQuality>
   <autoConfigureQuality name="High">
-    <extruder name="Primary Extruder">
-      <toolheadNumber>0</toolheadNumber>
-      <diameter>0.4</diameter>
-      <autoWidth>0</autoWidth>
-      <width>0.4</width>
-      <useRetract>1</useRetract>
-      <retractionDistance>4.5</retractionDistance>
-      <extraRestartDistance>0</extraRestartDistance>
-      <retractionZLift>0.2</retractionZLift>
-      <retractionSpeed>1500</retractionSpeed>
-      <useCoasting>1</useCoasting>
-      <coastingDistance>2</coastingDistance>
-      <useWipe>0</useWipe>
-      <wipeDistance>2</wipeDistance>
-    </extruder>
-    <layerHeight>0.05</layerHeight>
     <topSolidLayers>5</topSolidLayers>
     <bottomSolidLayers>5</bottomSolidLayers>
     <firstLayerHeightPercentage>200</firstLayerHeightPercentage>
