@@ -1,31 +1,56 @@
 [material]
 name=IF PLA
+<<<<<<< HEAD
+temperature=215
+bed_temperature=55
+fan_speed=70
+=======
 temperature=210
 bed_temperature=60
 fan_speed=100
+>>>>>>> b6880b13d5a7313ff0555631f5074bf266b94eea
 flow=100
 diameter=2.85
 
 [material]
 name=IF ABS
+<<<<<<< HEAD
+temperature=245
+bed_temperature=90
+fan_speed=35
+flow=110
+=======
 temperature=230
 bed_temperature=100
 fan_speed=50
 flow=100
+>>>>>>> b6880b13d5a7313ff0555631f5074bf266b94eea
 diameter=2.85
 
 [material]
 name=CF PLA
+<<<<<<< HEAD
+temperature=215
+bed_temperature=55
+fan_speed=60
+flow=100
+diameter=2.81
+=======
 temperature=205
 bed_temperature=60
 fan_speed=100
 flow=100
 diameter=2.85
+>>>>>>> b6880b13d5a7313ff0555631f5074bf266b94eea
 
 [material]
 name=CF XT
 temperature=250
 bed_temperature=70
 fan_speed=0
+<<<<<<< HEAD
+flow=110
+=======
 flow=100
+>>>>>>> b6880b13d5a7313ff0555631f5074bf266b94eea
 diameter=2.85
