@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<profile name="Ultimaker 2 2.85" version="2015-08-22 14:22:10" app="S3D-Software 3.0.1">
+<profile name="Ultimaker 2 2.85" version="2016-05-18 12:24:08" app="S3D-Software 3.0.2">
   <baseProfile>Ultimaker 2</baseProfile>
-  <printMaterial>Innofil PLA</printMaterial>
+  <printMaterial>Colorfabb PLA/PHA</printMaterial>
   <printQuality>Medium</printQuality>
   <printExtruders></printExtruders>
   <extruder name="Primary Extruder">
@@ -21,20 +21,20 @@
     <wipeDistance>2</wipeDistance>
   </extruder>
   <primaryExtruder>0</primaryExtruder>
-  <layerHeight>0.1</layerHeight>
-  <topSolidLayers>4</topSolidLayers>
-  <bottomSolidLayers>4</bottomSolidLayers>
+  <layerHeight>0.2</layerHeight>
+  <topSolidLayers>3</topSolidLayers>
+  <bottomSolidLayers>3</bottomSolidLayers>
   <perimeterOutlines>2</perimeterOutlines>
   <printPerimetersInsideOut>1</printPerimetersInsideOut>
-  <startPointOption>1</startPointOption>
+  <startPointOption>2</startPointOption>
   <startPointOriginX>0</startPointOriginX>
   <startPointOriginY>0</startPointOriginY>
   <startPointOriginZ>300</startPointOriginZ>
-  <sequentialIslands>1</sequentialIslands>
+  <sequentialIslands>0</sequentialIslands>
   <spiralVaseMode>0</spiralVaseMode>
   <firstLayerHeightPercentage>100</firstLayerHeightPercentage>
-  <firstLayerWidthPercentage>120</firstLayerWidthPercentage>
-  <firstLayerUnderspeed>0.8</firstLayerUnderspeed>
+  <firstLayerWidthPercentage>100</firstLayerWidthPercentage>
+  <firstLayerUnderspeed>0.5</firstLayerUnderspeed>
   <useRaft>0</useRaft>
   <raftExtruder>0</raftExtruder>
   <raftLayers>3</raftLayers>
@@ -62,9 +62,9 @@
   <infillExtruder>0</infillExtruder>
   <internalInfillPattern>Rectilinear</internalInfillPattern>
   <externalInfillPattern>Rectilinear</externalInfillPattern>
-  <infillPercentage>30</infillPercentage>
-  <outlineOverlapPercentage>50</outlineOverlapPercentage>
-  <infillExtrusionWidthPercentage>100</infillExtrusionWidthPercentage>
+  <infillPercentage>20</infillPercentage>
+  <outlineOverlapPercentage>33</outlineOverlapPercentage>
+  <infillExtrusionWidthPercentage>105</infillExtrusionWidthPercentage>
   <minInfillLength>3</minInfillLength>
   <infillLayerInterval>1</infillLayerInterval>
   <infillAngles>45,-45</infillAngles>
@@ -147,7 +147,7 @@
   <layerChangeGcode></layerChangeGcode>
   <retractionGcode></retractionGcode>
   <toolChangeGcode></toolChangeGcode>
-    <endingGcode>G91 ; relative coordinates,G10 ; retract,G1 Z5 ; retract lift,G28 X Y ; home X and Y,G90 ; absolute coordinates,M104 S0 ; turn off extruder heaters,M140 S0 ; turn off bed heater,M106 S0 ; turn off fans,M84 ; disable motors</endingGcode>
+  <endingGcode>G91 ; relative coordinates,G10 ; retract,G1 Z5 ; retract lift,G28 X Y ; home X and Y,G90 ; absolute coordinates,M104 S0 ; turn off extruder heaters,M140 S0 ; turn off bed heater,M106 S0 ; turn off fans,M84 ; disable motors</endingGcode>
   <createX3G>0</createX3G>
   <celebration>0</celebration>
   <celebrationSong>Random Song</celebrationSong>
@@ -155,7 +155,7 @@
   <postProcessing></postProcessing>
   <defaultSpeed>2400</defaultSpeed>
   <outlineUnderspeed>0.5</outlineUnderspeed>
-  <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
+  <solidInfillUnderspeed>0.35</solidInfillUnderspeed>
   <supportUnderspeed>0.8</supportUnderspeed>
   <rapidXYspeed>9000</rapidXYspeed>
   <rapidZspeed>900</rapidZspeed>
@@ -164,7 +164,7 @@
   <bridgingExtrusionMultiplier>1</bridgingExtrusionMultiplier>
   <bridgingSpeedMultiplier>0.5</bridgingSpeedMultiplier>
   <filamentDiameter>2.85</filamentDiameter>
-  <filamentPricePerKg>29.08</filamentPricePerKg>
+  <filamentPricePerKg>39.61</filamentPricePerKg>
   <filamentDensity>1.25</filamentDensity>
   <useMinPrintHeight>0</useMinPrintHeight>
   <minPrintHeight>0</minPrintHeight>
@@ -175,7 +175,7 @@
   <robustSlicing>1</robustSlicing>
   <mergeAllIntoSolid>0</mergeAllIntoSolid>
   <onlyRetractWhenCrossingOutline>1</onlyRetractWhenCrossingOutline>
-  <retractBetweenLayers>1</retractBetweenLayers>
+  <retractBetweenLayers>0</retractBetweenLayers>
   <useRetractionMinTravel>1</useRetractionMinTravel>
   <retractionMinTravel>0.02</retractionMinTravel>
   <retractWhileWiping>0</retractWhileWiping>
@@ -189,32 +189,33 @@
   <thinWallAllowedOverlapPercentage>20</thinWallAllowedOverlapPercentage>
   <horizontalSizeCompensation>0</horizontalSizeCompensation>
   <autoConfigureQuality name="Fast">
-    <layerHeight>0.15</layerHeight>
+    <layerHeight>0.3</layerHeight>
     <topSolidLayers>4</topSolidLayers>
     <bottomSolidLayers>4</bottomSolidLayers>
-    <firstLayerHeightPercentage>100</firstLayerHeightPercentage>
-    <firstLayerWidthPercentage>90</firstLayerWidthPercentage>
+    <firstLayerHeightPercentage>50</firstLayerHeightPercentage>
+    <firstLayerWidthPercentage>100</firstLayerWidthPercentage>
     <skirtLayers>1</skirtLayers>
-    <infillPercentage>30</infillPercentage>
+    <infillPercentage>20</infillPercentage>
     <supportInfillPercentage>25</supportInfillPercentage>
   </autoConfigureQuality>
   <autoConfigureQuality name="Medium">
-    <layerHeight>0.1</layerHeight>
-    <topSolidLayers>4</topSolidLayers>
-    <bottomSolidLayers>4</bottomSolidLayers>
+    <layerHeight>0.2</layerHeight>
+    <topSolidLayers>3</topSolidLayers>
+    <bottomSolidLayers>3</bottomSolidLayers>
     <firstLayerHeightPercentage>100</firstLayerHeightPercentage>
-    <firstLayerWidthPercentage>120</firstLayerWidthPercentage>
+    <firstLayerWidthPercentage>100</firstLayerWidthPercentage>
     <skirtLayers>1</skirtLayers>
-    <infillPercentage>30</infillPercentage>
+    <infillPercentage>20</infillPercentage>
     <supportInfillPercentage>30</supportInfillPercentage>
   </autoConfigureQuality>
   <autoConfigureQuality name="High">
+	<layerHeight>0.1</layerHeight>
     <topSolidLayers>5</topSolidLayers>
     <bottomSolidLayers>5</bottomSolidLayers>
-    <firstLayerHeightPercentage>200</firstLayerHeightPercentage>
-    <firstLayerWidthPercentage>120</firstLayerWidthPercentage>
+    <firstLayerHeightPercentage>100</firstLayerHeightPercentage>
+    <firstLayerWidthPercentage>100</firstLayerWidthPercentage>
     <skirtLayers>2</skirtLayers>
-    <infillPercentage>30</infillPercentage>
+    <infillPercentage>20</infillPercentage>
     <supportInfillPercentage>40</supportInfillPercentage>
   </autoConfigureQuality>
   <autoConfigureMaterial name="Innofil ABS">
@@ -244,7 +245,7 @@
       <setpoint layer="1" speed="0"/>
       <setpoint layer="10" speed="60"/>
     </fanSpeed>
-	<filamentPricePerKg>39.61</filamentPricePerKg>
+    <filamentPricePerKg>39.61</filamentPricePerKg>
   </autoConfigureMaterial>
   <autoConfigureMaterial name="Colorfabb XT">
     <globalExtruderTemperature>240</globalExtruderTemperature>
@@ -253,6 +254,6 @@
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
     </fanSpeed>
-	<filamentPricePerKg>38.50</filamentPricePerKg>
+    <filamentPricePerKg>38.5</filamentPricePerKg>
   </autoConfigureMaterial>
 </profile>
